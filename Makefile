@@ -1,6 +1,6 @@
 
-db_file		=	pop_db.py
-agent_file	=	evaluate_queries.py
+db_file		=	src/pop_db.py
+agent_file	=	src/evaluate_queries.py
 
 
 all: setup_db
