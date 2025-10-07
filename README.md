@@ -41,8 +41,8 @@ Before you begin, ensure you have the following installed:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/callmemehdy/rag_system.git
-    cd rag_system
+    git clone https://github.com/callmemehdy/docAssistantChatBot.git
+    cd docAssistantChatBot
     ```
     *(Note: Assuming your repo name is `rag_system` and username `callmemehdy`)*
 
@@ -65,7 +65,7 @@ Before you begin, ensure you have the following installed:
     ```
 2.  Place your PDF documents (`.pdf` files) that you want to query into this `data` folder. For example:
     ```
-    callmemehdy-rag_system/
+    callmemehdy-docAssistantChatBot/
     ├── data/
     │   ├── my_document_1.pdf
     │   └── my_document_2.pdf
@@ -84,14 +84,14 @@ This step processes your PDF documents, splits them into manageable chunks, crea
 
 *   **Manually:**
     ```bash
-    python3 pop_db.py
+    python3 ./src/pop_db.py
     ```
 
 *   **To reset and rebuild the database:**
     ```bash
     make reset_db
     # or manually:
-    python3 pop_db.py --reset
+    python3 ./src/pop_db.py --reset
     ```
 
 ## 💬 Querying the System
@@ -106,7 +106,7 @@ Once the database is populated, you can start asking questions! The system will 
 
 *   **Manually:**
     ```bash
-    python3 evaluate_queries.py
+    python3 ./src/evaluate_queries.py
     ```
 
 The agent will prompt you with `query:`. Type your question and press Enter. To exit, type `EXIT`.
