@@ -111,13 +111,15 @@ Once the database is populated, you can start asking questions! The system will 
 
 The agent will prompt you with `query:`. Type your question and press Enter. To exit, type `EXIT`.
 
-## Example Interaction:
+## Example Interaction
 
-**In case you feed the agent mariadb documentation pdf: **
+**In case you feed the agent the MariaDB documentation PDF:**
 
+```text
 agent loading...
 query: which port the mariadb service runs on?
 you will get your response after a while...
 Response: port 3306.
 query: EXIT
 Bye!
+```
