@@ -1,0 +1,8 @@
+pypdf
+langchain
+chromadb # Base vector storage, but `langchain-chroma` is preferred for LangChain integration
+pytest
+boto3 # For AWS Bedrock, if you choose to use it
+langchain-community # Still useful for some older integrations, but we'll minimize its use for Ollama/Chroma
+langchain-ollama  # New package for Ollama integrations
+langchain-chroma  # New package for Chroma integrations
