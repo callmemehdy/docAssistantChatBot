@@ -44,7 +44,6 @@ Before you begin, ensure you have the following installed:
     git clone https://github.com/callmemehdy/docAssistantChatBot.git
     cd docAssistantChatBot
     ```
-    *(Note: Assuming your repo name is `rag_system` and username `callmemehdy`)*
 
 2.  **Create a Virtual Environment (Recommended):**
     ```bash
